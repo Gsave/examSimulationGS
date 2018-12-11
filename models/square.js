@@ -3,7 +3,7 @@ class Square{
         var ris
         console.log(typeof s)
         if( (typeof s) == "string"){
-            ris = s.length * s.length
+            ris = Math.pow(s.length , 2)
         }else{
             ris = -1
         }
