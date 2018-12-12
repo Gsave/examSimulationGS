@@ -6,7 +6,7 @@ deploy:
   api_key:
     secure: $HEROKU_KEY
   app:
-    develop: examgs
+    master: examgs
 install:
   - "npm install --no-optional"
 before_script:
