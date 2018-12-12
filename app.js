@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/square", squareRoutes)
 
 app.get('/', function(req, res) {
-	res.send('Hello! The API is running');
+	res.send('Hello! The application is running');
 });
 
 module.exports = app;
